@@ -3,7 +3,7 @@ Lunar impact craters identification and age estimation with Chang'E data by deep
 
 DeepMoon is a pipeline for training a convolutional neuralnetwork (CNN) 
 to identify impact craters on the Moon and training a dual-channel impact 
-crater classification model to classify the impact craters identified before.
+crater age classification model to classify the impact craters identified before.
 
 ## Getting Started
 
