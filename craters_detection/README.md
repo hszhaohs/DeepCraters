@@ -27,7 +27,7 @@ Any NVIDIA GPU with 8GB or larger memory is OK.
 ## Installation [clone from py-R-FCN repository]
 1. Clone the repository  
   ```Shell
-  a) Download the repository from <https://github.com/hszhaohs/DeepCraters>
+  a) Download the repository from https://github.com/hszhaohs/DeepCraters
   b) UnZip 'DeepCraters.zip'
   c) cd /DeepCraters/craters_detection
   d) We'll call the directory 'py-R-FCN' into `RFCN_ROOT`
