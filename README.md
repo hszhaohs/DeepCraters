@@ -1,7 +1,7 @@
 # DeepCraters 
 Lunar impact craters identification and age estimation with Chang'E data by deep and transfer learning
 
-DeepMoon is a pipeline for training a convolutional neuralnetwork (CNN) 
+DeepCraters is a pipeline for training a convolutional neuralnetwork (CNN) 
 to identify impact craters on the Moon and training a dual-channel impact 
 crater age estimation model to classify the impact craters identified before.
 
