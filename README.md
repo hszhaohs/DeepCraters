@@ -27,7 +27,7 @@ III. https://www.lpi.usra.edu/lunar/surface/ [lunar craters with constrained age
 **NOTE:** All the craters with constrained ages in 'II' are contained in 'III'.
 
 The craters used for 'ctaters detection' can be find in `/craters_detection/data_list/`, 
-and the craters with constrained ages used for 'age estimatiom' can be find in `/age_estimation/data_list`.
+and the craters with constrained ages used for 'age estimatiom' can be find in `/age_estimation/data_list/`.
 
 ### Running DeepCraters
 
