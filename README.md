@@ -35,13 +35,11 @@ Each part of DeepCraters has the corresponding script:
  - part 1 (craters_detection):  
   `RFCN_ROOT/experiments/scripts/moon_rfcn_end2end.sh` for build and train the detection model,  
   `RFCN_ROOT/tools/rfcn_test_Moon_Detect.py` to generate a crater atlas of study area.  
-  
   The more details can be find in [README for Craters Detection](https://github.com/hszhaohs/DeepCraters/craters_detection/README.md).
   
  - part 2 (age_estimation):  
   `train_moon_age_estimation.py` for build and train the age estimation model,  
   `pred_dete_moon_age_estimation.py` to predict the age of all craters detected in part 1.  
-  
   The more details can be find in [README for Age Estimation](https://github.com/hszhaohs/DeepCraters/age_estimation/README.md).
 
 We recommend copying these scripts into a new working directory (and appending
