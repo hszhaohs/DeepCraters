@@ -12,7 +12,7 @@ For image data, the DOM images (gray images) of the aged craters and the identif
 
 ## attribute data preparing
 For attribute data, total 78 attribute data, morphological features with the corresponding stratigraphic information,of craters were extracted for age estimation model.
-40 morphological data of craters were calculated with Chang’E data referring to the lunar impact craters database published by LPI17; 
+40 morphological data of craters were calculated with Chang’E data referring to the lunar impact craters database published by LPI; 
 38 stratigraphic information of craters were extracted from the 1:5,000,000 Lunar Geologic Renovation (2013 edition) produced by the U.S. Geological Survey. 
 What needs illustration is that the value of 38 stratigraphic information refers to the percent of the stratum in the crater.
 The details of morphological features and the stratigraphic information can be found in the `/age_estimation/attribute_headers/morphological_headers.csv` 
