@@ -66,7 +66,7 @@ Any NVIDIA GPU with 8GB or larger memory is OK.
 
 
 ## Demo
-1.  To use demo you need to download the pretrained Moon_R-FCN model, please download the model manually from [BaiDu](https://pan.baidu.com/s/1YHmuXvYL29kEH3GhKVbQww) [code: `b6b7'], and put it under `$RFCN/data`. 
+1.  To use demo you need to download the pretrained Moon_R-FCN model, please download the model manually from [BaiDu](https://pan.baidu.com/s/1YHmuXvYL29kEH3GhKVbQww) [code: `b6b7`], and put it under `$RFCN/data`. 
 
     Make sure it looks like this:
     ```Shell
