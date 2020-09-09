@@ -12,10 +12,10 @@ For image data, the DOM images (gray images) of the aged craters and the identif
 
 ## attribute data preparing
 For attribute data, total 78 attribute data, morphological features with the corresponding stratigraphic information,of craters were extracted for age estimation model.
-40 morphological data of craters were calculated with Chang’E data referring to the lunar impact craters database published by LPI[1]; 
-38 stratigraphic information of craters were extracted from the 1:5,000,000 Lunar Geologic Renovation (2013 edition) produced by the U.S. Geological Survey. 
-What needs illustration is that the value of 38 stratigraphic information refers to the percent of the stratum in the crater.
-The details of morphological features and the stratigraphic information can be found in [feature_description.csv](https://github.com/hszhaohs/DeepCraters/blob/master/age_estimation/attribute_headers/feature_description.csv). What needs illustration is that the first 40 features indicate the morphological attribute and the last 38 features indicate thr stratigraphic information. The morphological features refer to the lunar impact craters database published by LPI[1], and some age-independent features (like, Latitude, Longitude, et. al.), repetitive features (like, Diameter [km] and Radius [km], Radius [m]), and some incomplete features are removed. The stratigraphic features refer to the 1:5,000,000 Lunar Geologic Renovation (2013 edition) produced by the U.S. Geological Survey. 
+40 morphological features of craters were calculated with Chang’E data referring to the lunar impact craters database published by LPI[1]; 
+38 stratigraphic attributes of craters were extracted from the 1:5,000,000 Lunar Geologic Renovation (2013 edition) produced by the U.S. Geological Survey. 
+What needs illustration is that the value of 38 stratigraphic attributes refer to the percent of the stratum in the crater.
+The details of morphological features and the stratigraphic attributes can be found in [feature_description.csv](attribute_headers/feature_description.csv). What needs illustration is that the first 40 features indicate the morphological attribute and the last 38 features indicate thr stratigraphic attribute. The morphological features refer to the lunar impact craters database published by LPI[1], and some age-independent features (like, Latitude, Longitude, et. al.), repetitive features (like, Diameter [km] and Radius [km], Radius [m]), and some incomplete features are removed. The stratigraphic attributes refer to the 1:5,000,000 Lunar Geologic Renovation (2013 edition) produced by the U.S. Geological Survey. 
 
 # Experiment detail
 We use Adam optimizer with learning rate schedule. The inital learning rate is decayed by the factor of 0.2 at 4/5 of entire epochs. 
