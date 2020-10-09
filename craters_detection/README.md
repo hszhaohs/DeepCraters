@@ -178,7 +178,7 @@ Output is written underneath `$RFCN_ROOT/dete_output_{dataname}`.
 
 
 ## Craters Detection's Flow
-[craters detection's flow](https://github.com/hszhaohs/DeepCraters/blob/master/craters_detection/craters_detection.png)
+![craters detection's flow](https://github.com/hszhaohs/DeepCraters/blob/master/craters_detection/craters_detection.png)
 
 ## Misc
 
