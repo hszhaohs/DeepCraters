@@ -43,6 +43,8 @@ To predict the age of detected craters using the trained age estimation model wi
 
 `python pred_dete_moon_age_estimation.py -a=resnet50 -m=mt -b=32 --gpu=0`
 
+# Age Estimation's Flow
+![age estimation's flow](https://github.com/hszhaohs/DeepCraters/blob/master/age_estimation/age_estimation.png)
 
 # References
 [1] Tarvainen, Antti, and Harri Valpola. "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results." Advances in neural information processing systems. 2017.  
