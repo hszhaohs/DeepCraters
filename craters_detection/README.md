@@ -44,7 +44,7 @@ Any NVIDIA GPU with 8GB or larger memory is OK.
   git reset --hard 1a2be8e
   ```
   (I only test on this commit, and I'm not sure whether this Caffe is still compatible with the prototxt in this repository in the future)
-  
+
   If you followed the above instruction, python code will add `$RFCN_ROOT/caffe/python` to `PYTHONPATH` automatically, otherwise you need to add `$CAFFE_ROOT/python` by your own, you could check `$RFCN_ROOT/tools/_init_paths.py` for more details.
 
 3. Build the Cython modules
@@ -79,6 +79,7 @@ Any NVIDIA GPU with 8GB or larger memory is OK.
     $RFCN_ROOT/tools/demo_rfcn_Moon.py
     ```
     
+
   The demo performs detection using a ResNet-101 network trained for detection on recognized impact craters with CE-1 data.
 
 
@@ -119,12 +120,14 @@ The detailed information of PASCAL VOC dataset can be described as following. [c
 3. It should have this basic structure
 
 	```Shell
-  	$VOCdevkit/                           # development kit
-  	$VOCdevkit/VOCcode/                   # VOC utility code
-  	$VOCdevkit/VOC2007                    # image sets, annotations, etc.
-  	$VOCdevkit/VOC2012                    # image sets, annotations, etc.
+    	$VOCdevkit/                           # development kit
+    	$VOCdevkit/VOCcode/                   # VOC utility code
+    	$VOCdevkit/VOC2007                    # image sets, annotations, etc.
+    	$VOCdevkit/VOC2012                    # image sets, annotations, etc.
+   ```
+  ```
   	# ... and several other directories ...
-  	```
+  ```
 
 4. Since py-faster-rcnn does not support multiple training datasets, we need to merge VOC 2007 data and VOC 2012 data manually. Just make a new directory named `VOC0712`, put all subfolders except `ImageSets` in `VOC2007` and `VOC2012` into `VOC0712`(you'll merge some folders). I provide a merged-version `ImageSets` folder for you, please put it into `VOCdevkit/VOC0712/`.
 
@@ -143,7 +146,7 @@ The detailed information of PASCAL VOC dataset can be described as following. [c
 	```Shell
     cd $RFCN_ROOT/data
     ln -s $VOCdevkit VOCdevkit0712
-    ```
+   ```
 
 5.  Please download ImageNet-pre-trained ResNet-50 and ResNet-100 model manually, and put them into `$RFCN_ROOT/data/imagenet_models`
 6.  Then everything is done, you could train your own model.
@@ -173,6 +176,9 @@ output/<experiment directory>/<dataset name>/
 To test your own R-FCN detector, use `tools/rfcn_test_Moon_Detect.py`.  
 Output is written underneath `$RFCN_ROOT/dete_output_{dataname}`.
 
+
+## Craters Detection's Flow
+[craters detection's flow](https://github.com/hszhaohs/DeepCraters/blob/master/craters_detection/craters_detection.png)
 
 ## Misc
 
