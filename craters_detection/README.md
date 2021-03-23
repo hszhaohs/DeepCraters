@@ -88,7 +88,7 @@ One should organize whose dataset as the format of PASCAL VOC dataset.
 The collected datasets (including image dataset [CE-1 and CE-2 DOM/DEM data] and recognized impact craters information) are prepared before converting to the format of PASCAL VOC dataset.
 * 1. Download the CE-1 and CE-2 DOM/DEM data from <http://moon.bao.ac.cn/>
 * 2. Image mosaic under the specified projection (the details of projection is described in the file of "moon_projection.prj")
-* 3. CE-1 and CE-2 DOM and DOM data fusion.
+* 3. CE-1 and CE-2 DOM and DEM data fusion.
 * 4. Download recognized lunar impact craters regulated by the International Astronomical Union (IAU) from <https://planetarynames.wr.usgs.gov/Page/MOON/target>
 * 5. Extract the impact craters locating the study area from step 4.
 * 6. Crop the fusion image patch containing the impact craters at the center.
